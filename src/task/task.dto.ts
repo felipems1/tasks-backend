@@ -5,3 +5,7 @@ export class TaskDto {
   status: string
   deadline: Date
 }
+
+export interface FindAllParameters {
+  title: string
+}
